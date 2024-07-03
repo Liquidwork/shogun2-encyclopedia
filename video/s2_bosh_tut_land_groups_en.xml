@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+<head>
+<styling>
+<style id="1" tts:textAlign="left" tts:fontSize="20 px"/>
+</styling>
+</head>
+<body>
+<div xml:lang="en">
+<p begin="00:00:00.30" dur="8633 ms" style="1">Groups and formations can really help to organsie our troops efficiently. &lt;br /&gt;They also enable us to issue orders to multiple units.</p>
+<p begin="00:00:09.53" dur="8350 ms" style="1">Let's create a group now. We can left-click and drag a box around our units,&lt;br /&gt;or hold down the Control key and select units one by one.</p>
+<p begin="00:00:17.88" dur="7500 ms" style="1">With our units selected, we'll press the &quot;G&quot; key or click the Group button,&lt;br /&gt;to set up the group.</p>
+<p begin="00:00:26.03" dur="7216 ms" style="1">We can now issue orders to our group and place it in one of several&lt;br /&gt;formations.With our group locked in our chosen formation,</p>
+<p begin="00:00:33.24" dur="6700 ms" style="1">they'll now attempt to hold their shape and spacing whilst carrying out&lt;br /&gt;move orders. </p>
+</div>
+</body>
+</tt>

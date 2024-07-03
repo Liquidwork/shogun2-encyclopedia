@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+<head>
+<styling>
+<style id="1" tts:textAlign="left" tts:fontSize="20 px"/>
+</styling>
+</head>
+<body>
+<div xml:lang="en">
+<p begin="00:00:00.30" dur="7683 ms" style="1">The enemy are well positioned. We're taking heavy causalities&lt;br /&gt;before our men can get a foothold on the battlements! </p>
+<p begin="00:00:07.98" dur="7700 ms" style="1">Let's  try to split the enemy forces by ordering our men to climb&lt;br /&gt;some undefended areas.</p>
+<p begin="00:00:17.46" dur="7800 ms" style="1">Our men are under fire from those towers! Once we're inside the&lt;br /&gt;walls, we should move quickly to capture them. If we order </p>
+<p begin="00:00:25.26" dur="8700 ms" style="1">a unit into the marked area surrounding a tower, it will eventually&lt;br /&gt;fall under our control. We can then turn that hail of fire on the enemy.</p>
+<p begin="00:00:35.46" dur="6933 ms" style="1">We can capture and gain control of the gatehouse in&lt;br /&gt;the same way. Now we've seized the main gate, we'll order </p>
+<p begin="00:00:42.39" dur="4700 ms" style="1">our cavalry to flood into the castle and slaughter the&lt;br /&gt;remaining defenders!</p>
+<p begin="00:00:47.73" dur="7666 ms" style="1">With the outer defences breached, let's edge our men towards&lt;br /&gt;the inner wall and head for the tenshu. Capture that, and the </p>
+<p begin="00:00:55.39" dur="6200 ms" style="1">battle will be won. The castle and the campaign province will&lt;br /&gt;be ours for the taking!</p>
+</div>
+</body>
+</tt>

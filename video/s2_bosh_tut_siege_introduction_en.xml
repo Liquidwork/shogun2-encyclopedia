@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+<head>
+<styling>
+<style id="1" tts:textAlign="left" tts:fontSize="20 px"/>
+</styling>
+</head>
+<body>
+<div xml:lang="en">
+<p begin="00:00:00.30" dur="6900 ms" style="1">Victory on the open battlefields will keep our enemies in&lt;br /&gt;check, but we'll need to master the art of siege battles before we can </p>
+<p begin="00:00:07.20" dur="7400 ms" style="1">take their lands. Sieges demand new strategies from the&lt;br /&gt;attacker and the defending force.</p>
+<p begin="00:00:15.30" dur="8767 ms" style="1">In this encounter, we're charged with taking the enemy castle;&lt;br /&gt;a fiercely defended stronghold that will test our men and our tactics.</p>
+<p begin="00:00:24.66" dur="8716 ms" style="1">As we learned in the land battle essentials tutorial, we'll&lt;br /&gt;spend the deployment phase setting up our army, forming groups </p>
+<p begin="00:00:33.38" dur="1900 ms" style="1">and setting formations for the assault on the walls.</p>
+<p begin="00:00:35.90" dur="7755 ms" style="1">Our objective, as the attacker, is to capture the keep or &quot;tenshu&quot;&lt;br /&gt;located in the centre of the castle. We can also win by </p>
+<p begin="00:00:43.65" dur="7955 ms" style="1">annihilating  the defending force. Our troops need to battle&lt;br /&gt;their way through the defences to get to the enemy, so </p>
+<p begin="00:00:51.61" dur="1600 ms" style="1">we'll need to breach those castle walls. </p>
+</div>
+</body>
+</tt>

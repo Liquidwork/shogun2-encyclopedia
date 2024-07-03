@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+<head>
+<styling>
+<style id="1" tts:textAlign="left" tts:fontSize="20 px"/>
+</styling>
+</head>
+<body>
+<div xml:lang="en">
+<p begin="00:00:00.30" dur="6883 ms" style="1">Armies are vital to our clan's expansion, but if we can&lt;br /&gt;also build a strong navy, we can control profitable trade routes </p>
+<p begin="00:00:07.18" dur="3600 ms" style="1">and provide military support to our ground forces.</p>
+<p begin="00:00:11.46" dur="6800 ms" style="1">Ships and their crews are recruited at ports, in much the same&lt;br /&gt;way as units from cities. Left-clicking on a port displays </p>
+<p begin="00:00:18.26" dur="8000 ms" style="1">the recruitment tab. From here, we simply left-click to add&lt;br /&gt;a ship to the queue. Like units, it may take a number</p>
+<p begin="00:00:26.26" dur="4100 ms" style="1">of turns before the ship is available.</p>
+<p begin="00:00:31.06" dur="7650 ms" style="1">We can use ships to help us transport our armies and characters.&lt;br /&gt;With an army selected, we'll right-click on our ship</p>
+<p begin="00:00:38.71" dur="7400 ms" style="1">to order them aboard. Once we've sailed to our destination,&lt;br /&gt;we right-click again on a location on the map to disembark.</p>
+<p begin="00:00:46.76" dur="6422 ms" style="1">We can use fleets of ships to cripple enemy trade by raiding&lt;br /&gt;their routes and blockading their ports. With our fleet selected, </p>
+<p begin="00:00:53.18" dur="7022 ms" style="1">let's right-click on this enemy port and choose to attack.&lt;br /&gt;Our fleet will now sail into the port, halting the profitable trade </p>
+<p begin="00:01:00.21" dur="2000 ms" style="1">running through it.</p>
+<p begin="00:01:02.83" dur="8000 ms" style="1">A strong navy can also offer substantial military support. If we can&lt;br /&gt;get our fleet positioned close to an enemy settlement or army, </p>
+<p begin="00:01:10.83" dur="8200 ms" style="1">they can lend their firepower to assist our land forces. Here we&lt;br /&gt;can see our ship's bombardment radius; any enemy within this</p>
+<p begin="00:01:19.03" dur="6500 ms" style="1">is vulnerable to our guns. Let's right-click the enemy city&lt;br /&gt;to issue the attack order.</p>
+<p begin="00:01:26.23" dur="9577 ms" style="1">We need to be wary of coastal defences. If an enemy develops&lt;br /&gt;their ports, they can build gun batteries to protect against naval invasion.</p>
+<p begin="00:01:35.81" dur="8000 ms" style="1">Move a fleet within range of these guns and we'll suffer damage.&lt;br /&gt;Of course, we can also upgrade our ports and construct similar </p>
+<p begin="00:01:43.81" dur="2250 ms" style="1">defences to protect our own coastlines.</p>
+</div>
+</body>
+</tt>

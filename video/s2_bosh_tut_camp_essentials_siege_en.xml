@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+<head>
+<styling>
+<style id="1" tts:textAlign="left" tts:fontSize="20 px"/>
+</styling>
+</head>
+<body>
+<div xml:lang="en">
+<p begin="00:00:00.30" dur="8767 ms" style="1">The enemy have a city nearby that looks relatively undefended, if we can seize it,&lt;br /&gt;we'll gain a valuable province. </p>
+<p begin="00:00:09.56" dur="5850 ms" style="1">Right-clicking on the enemy city presents us with some&lt;br /&gt;pre-battle options. A siege offers a new choice: </p>
+<p begin="00:00:14.51" dur="6050 ms" style="1">we can look to starve out the population, maintaining the siege&lt;br /&gt;for a number of turns until we gain a peaceful surrender. </p>
+<p begin="00:00:20.56" dur="6800 ms" style="1">But we'll choose to put our enemy out of their misery here;&lt;br /&gt;let's auto-resolve.</p>
+<p begin="00:00:28.06" dur="6800 ms" style="1">Their resistance was futile! The enemy city is ours for&lt;br /&gt;the taking. Now we can choose to ruthlessly loot the </p>
+<p begin="00:00:34.86" dur="6600 ms" style="1">city of its wealth, request that it becomes our vassal,&lt;br /&gt;or occupy it peacefully.</p>
+<p begin="00:00:42.16" dur="5800 ms" style="1">Let's get a better view of our prize. Double left-clicking&lt;br /&gt;on the city opens the province details panel. </p>
+<p begin="00:00:47.96" dur="6500 ms" style="1">Here we can check on the wealth and growth it's currently&lt;br /&gt;generating. Right now however, we've a small matter of public unrest</p>
+<p begin="00:00:54.46" dur="3700 ms" style="1">to deal with.</p>
+</div>
+</body>
+</tt>

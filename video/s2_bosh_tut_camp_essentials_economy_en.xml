@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+<head>
+<styling>
+<style id="1" tts:textAlign="left" tts:fontSize="20 px"/>
+</styling>
+</head>
+<body>
+<div xml:lang="en">
+<p begin="00:00:00.30" dur="6350 ms" style="1">There's more we can do more to improve public order.&lt;br /&gt;We can construct buildings that offer services to keep</p>
+<p begin="00:00:06.65" dur="7500 ms" style="1">the population appeased. We also need to consider developing our&lt;br /&gt;city to bolster our coffers and advance our armies.</p>
+<p begin="00:00:14.76" dur="5900 ms" style="1">Building an Inn will help earn us more income and&lt;br /&gt;boost growth in the province. Selecting the Inn </p>
+<p begin="00:00:20.66" dur="6700 ms" style="1">from the building panel, let's issue the construction order. Like&lt;br /&gt;recruitment, we may have to wait a number of turns </p>
+<p begin="00:00:27.36" dur="2800 ms" style="1">before the building is available.</p>
+<p begin="00:00:30.86" dur="6000 ms" style="1">Finances improved, we now need to build up our forces.&lt;br /&gt;We have armed citizenry in the city, but they'll </p>
+<p begin="00:00:36.86" dur="5100 ms" style="1">only provide limited protection and can't be used to help us conquer new lands.</p>
+</div>
+</body>
+</tt>

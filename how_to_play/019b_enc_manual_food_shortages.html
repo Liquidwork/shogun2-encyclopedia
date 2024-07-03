@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Food</title>
+
+	<link rel="stylesheet" type="text/css" href="../encyclopedia.css" media="all" />
+	<!--[if IE]><link rel="stylesheet" type="text/css" href="../encyclopedia_ie_rules.css" media="screen" /><![endif]-->
+	<link rel="index" href="../index.html">
+	<link rel="top" href="../index.html">
+	<link rel="up" href="../index.html">
+	<link rel="prev" href="019a_enc_manual_province_wealth.html">
+	<link rel="next" href="020_enc_manual_public_order.html">
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<script src="../cufon-yui.js" type="text/javascript"></script>
+	<script src="../disable-select.js" type="text/javascript"></script>
+	<script src="../javascript_cookies.js" type="text/javascript"></script>
+	<script src="../Bardi_400-Bardi_700.font.js" type="text/javascript"></script>
+	<script type="text/javascript">
+			Cufon.replace('h1')('h2')('h3')('h4')('p')('li')('a')('table'); // Works without a selector engine
+	</script>
+	<script type="text/javascript">
+		function write_volume_to_cookie() 
+		{
+			var split_string = location.search.substr(1).split(":");			
+			if(split_string[0].length > 0)
+			{
+				Set_Cookie( 'vol', split_string[0], '', '/', '', '' );
+			}
+			if(split_string[1].length > 0)
+			{
+				Set_Cookie( 'sub', split_string[1], '', '/', '', '' );
+			}
+		}
+	</script>
+</head>
+
+<body onLoad="write_volume_to_cookie()">
+     <div id="header">
+		<h1>Total War Encyclopaedia</h1>
+		<ul id="navigation">
+			<li><a href="../how_to_play.html">Manual</a></li>
+			<li><a href="../unit_index_choice.html">Units</a></li>
+			<li><a href="../building_index_choice.html">Buildings</a></li>
+			<li><a href="../arts_index_choice.html">Arts</a></li>
+			<li><a href="../clan_index_choice.html">Clans</a></li>
+			<li><a href="../character_index_choice.html">Characters</a></li>
+			<li><a href="../region_index_choice.html">Provinces</a></li>
+			<li><a href="../specialities_index_choice.html">Specialities</a></li>
+			<li><a href="../tutorials.html">Tutorials</a></li>
+		</ul>
+     </div>
+     <ul id="breadcrumbs">
+		<li><a href="../how_to_play.html">Manual</a></li>
+		<li><a href="018_enc_manual_actions_campaign.html">Campaign Map Play</a></li>
+		<li>Food</li>
+     </ul>
+    <div id="page">
+      <h2>Food</h2>
+      <div id="content">
+
+         <div class="textblock">
+
+         <h3 id="enc_text_manual_food_shortages">Food</h3>
+         <p>In Shogun 2, food is a driving force of both the <a href="../../encyclopedia/how_to_play/019a_enc_manual_province_wealth.html">economy</a> and <a href="../../encyclopedia/how_to_play/020_enc_manual_public_order.html">public order</a> of your clan. Food is spread across all the provinces you control, so the output of a high level <a href="../../encyclopedia/how_to_play/018e_enc_manual_actions_campaign_construction.html#enc_text_manual_actions_campaign_construction_infrastructure_farms">farm</a> may be shared out between other provinces in your domain. <a href="../../encyclopedia/how_to_play/018e_enc_manual_actions_campaign_construction.html#enc_text_manual_actions_campaign_construction_castle">Castle towns</a> are the chief consumer of food; the higher the level of castle town, the larger its population and therefore the larger the amount of food consumed. High level buildings of the market chain also consume food. Food is produced by farms; the higher the level of farm, the larger the amount of food produced. It is essential to strike a balance between food production and consumption as food shortages at a castle town will quickly damage public order and lead to <a href="../../encyclopedia/how_to_play/020_enc_manual_public_order.html#enc_text_manual_public_order_rebellions">insurrection</a>.<p><p>When a clan&#39;s food supply is short (indicated by a negative number in the bottom right-hand corner of the campaign map next to their income) the size of the food shortage is the deciding factor in the number of provinces affected by it (e.g. -1 = one province, -2 = two provinces, etc.) Each affected province will get a negative public order factor that increases by one during each subsequent turn. Doing nothing to address food shortages always leads to rebellion eventually.<p><p>When there is a surplus of food this is translated into growth (e.g. 1 = one point of growth). A food surplus of 0 means a balance between production and consumption has been found.</p>
+         </div>
+
+
+		<ul class="sub_index">
+			
+		</ul>
+
+
+	 </div>
+     </div>
+     <div id="footer">
+		<a id="link_previous" href="019a_enc_manual_province_wealth.html">Wealth</a>
+		<a id="link_next" href="020_enc_manual_public_order.html">Public Order</a>
+     </div>
+</body>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+<head>
+<styling>
+<style id="1" tts:textAlign="left" tts:fontSize="20 px"/>
+</styling>
+</head>
+<body>
+<div xml:lang="en">
+<p begin="00:00:00.30" dur="9216 ms" style="1">Artillery is crucial.  With cannon in our ranks, we can target the&lt;br /&gt;outer walls and have our men break through their defences. </p>
+<p begin="00:00:09.51" dur="6700 ms" style="1">With our cannon selected and in range, we'll right-click a&lt;br /&gt;wall area to target fire.</p>
+<p begin="00:00:21.93" dur="7000 ms" style="1">There's another way we can overcome the walls: our Ninja and&lt;br /&gt;infantry units can be ordered to scale them. We'll also order </p>
+<p begin="00:00:28.93" dur="4900 ms" style="1">our cavalry units to dismount and make the climb. </p>
+<p begin="00:00:34.43" dur="7150 ms" style="1">With a unit selected, we'll  choose an area of the outer wall to&lt;br /&gt;attack. Notice that our cursor changes; this tells us that this unit </p>
+<p begin="00:00:41.58" dur="3000 ms" style="1">can climb here. </p>
+<p begin="00:00:45.23" dur="8867 ms" style="1">Any infantry unit can climb a wall but heavily armoured troops&lt;br /&gt;are slower. They're more likely to suffer casualties as a result.</p>
+<p begin="00:00:54.70" dur="6100 ms" style="1">Ninjas come into their own here. Their agility and light armour make&lt;br /&gt;short work of scaling the wall and they're equipped with </p>
+<p begin="00:01:00.80" dur="5900 ms" style="1">climbing claws, designed for the task at hand.</p>
+</div>
+</body>
+</tt>

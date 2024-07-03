@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+<head>
+<styling>
+<style id="1" tts:textAlign="left" tts:fontSize="20 px"/>
+</styling>
+</head>
+<body>
+<div xml:lang="en">
+<p begin="00:00:00.30" dur="7800 ms" style="1">When we capture a province, particularly if we choose to loot it's wealth,&lt;br /&gt;we will often need to calm the dissent created by our arrival</p>
+<p begin="00:00:08.10" dur="3500 ms" style="1">before we can reap the rewards.</p>
+<p begin="00:00:12.23" dur="7400 ms" style="1">Money talks. If we choose to exempt this province from taxation,&lt;br /&gt;its people will soon forgive their new masters and public order</p>
+<p begin="00:00:19.63" dur="2900 ms" style="1">will be restored – at least for now.</p>
+<p begin="00:00:23.20" dur="7200 ms" style="1">A strong military presence can also help matters. If we&lt;br /&gt;recruit some further units and leave them garrisoned here, </p>
+<p begin="00:00:30.40" dur="3900 ms" style="1">they will help stamp out protests and stave off rebellions.</p>
+<p begin="00:00:34.93" dur="6550 ms" style="1">We need to stay wary – if public order declines again,&lt;br /&gt;we will risk a full-scale rebellion and that </p>
+<p begin="00:00:41.48" dur="2500 ms" style="1">could threaten to bring production in this province to a halt. </p>
+</div>
+</body>
+</tt>

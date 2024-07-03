@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+<head>
+<styling>
+<style id="1" tts:textAlign="left" tts:fontSize="20 px"/>
+</styling>
+</head>
+<body>
+<div xml:lang="en">
+<p begin="00:00:00.30" dur="6500 ms" style="1">The Clan Management panel offers us a view of our progress.&lt;br /&gt;Here we can check on our victory conditions, assess our</p>
+<p begin="00:00:06.80" dur="6100 ms" style="1">reputation and relationships with other clans and manage our family and council.</p>
+<p begin="00:00:13.63" dur="8011 ms" style="1">The Family and Council Panel allows us to assign positions of&lt;br /&gt;responsibility to family members, handing them commissions to help our war effort </p>
+<p begin="00:00:21.64" dur="8511 ms" style="1">and civic development. When sons come of age, they automatically become&lt;br /&gt;Generals. Daughters meanwhile, can be married off, helping to extend </p>
+<p begin="00:00:30.15" dur="7200 ms" style="1">our bloodline. Their hand in marriage can also be offered to help improve&lt;br /&gt;diplomatic relations.</p>
+<p begin="00:00:37.96" dur="7066 ms" style="1">We can also switch our clan's allegiance on this panel. At the&lt;br /&gt;beginning of the campaign, our clan is allied to either the</p>
+<p begin="00:00:45.03" dur="7266 ms" style="1">Emperor or the Shogun, but this can be changed once during&lt;br /&gt;a Daimyo's lifetime. This decision can't be taken lightly. Switching allegiance </p>
+<p begin="00:00:52.29" dur="6200 ms" style="1">can disrupt public order and damage our Daimyo's reputation.</p>
+<p begin="00:00:59.16" dur="6808 ms" style="1">Our clan's fame level increses as we win battles and conquer&lt;br /&gt;provinces. As we become stronger and more renowned, we'll be given a </p>
+<p begin="00:01:05.97" dur="7108 ms" style="1">title to represent our new status. We need to monitor our&lt;br /&gt;reputation carefully. Once our clan is perceived to be too powerful, </p>
+<p begin="00:01:13.08" dur="7308 ms" style="1">we'll be forced to declare our intentions. At this stage we must&lt;br /&gt;either swear our allegiance to the Emperor or Shogun, or look to </p>
+<p begin="00:01:20.39" dur="6200 ms" style="1">unify Japan under our own rule.</p>
+</div>
+</body>
+</tt>

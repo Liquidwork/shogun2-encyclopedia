@@ -1,0 +1,651 @@
+/*
+Shogun 2 encyclopaedia default theme
+last revision: 12/2010
+uses CSS3
+soli deo gloria
+*/
+
+/* Reset CSS */
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+@import url('encyclopedia_loc.css');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+td img {display: block; border : 0;}
+
+html, body {
+height: 100%; overflow-x: hidden;
+}
+
+/* Typography rules */
+
+body {
+	font-family: Bardi, Verdana, Helvetica, sans-serif;
+	background-image: url(layout_images/watermark_leaves.png), url(layout_images/bg_main.png);
+	background-repeat: no-repeat, repeat;
+	background-position: top right, top left;
+	font-size: 1em;
+	list-style-image:url(layout_images/bullet_point.png);
+}
+
+a { text-decoration: none; color: #8f4803;}
+a:hover {color: #bc8900; /*675252, #8f4803*/  }
+
+/* header */
+#header {
+   background-repeat: no-repeat, repeat-x, repeat;
+   background-position: top right, top left, top left;
+}
+#header h1 {
+	display: block;
+	height: auto;
+	background: url(layout_images/lantern.png) no-repeat;
+	padding: 4px 0 4px 50px;
+	font-weight: normal;
+	font-size: xx-large;
+	letter-spacing: 0px;
+	background-position: 12px 0px;
+	text-align: left;
+}
+
+#navigation li {
+	height: 33px;
+	float: left;
+	margin-left: 10px;
+	font-size: 1.2em;
+	color: #7e1500;
+}
+
+#navigation li a {
+	display:block;
+	padding: 2px 4px 0px 4px;
+	color: white;
+	color: #7e1500;
+}
+
+#navigation li a:hover {
+	color: #bc8900;
+	font-weight: normal;
+	border-bottom: 2px solid #bc8900;
+	text-decoration: none;
+	color: #7e1500;
+}
+
+/*breadcrumbs*/
+#breadcrumbs {
+	clear: left;
+	float: left;
+	list-style: none;
+	padding: 0px 0 3px 0;
+	}
+
+#breadcrumbs li {
+	float: left;
+	margin-left: 12px;
+	padding-left: 20px;
+	background: url(layout_images/arrow-red.png) no-repeat left;
+	padding-top: 0px;
+	line-height: 1;
+}
+
+#breadcrumbs li a {color: black; padding: 2px;}
+#breadcrumbs li a:hover {background: #f9f9f9;}
+
+/* page */
+#page {
+	clear: left;
+	background-image: url(layout_images/watermark_reeds.png), url(layout_images/bg_content.png);
+	background-repeat: no-repeat, repeat;
+	background-position: bottom left;
+	border-top: 1px solid #a8a8a8;
+	border-bottom: 1px solid #a8a8a8;
+	padding: 5px 5px 5px 10px;
+	margin-top: 0px;
+	overflow: scroll;
+	overflow-x: hidden;
+	height: 75%;
+	text-align: left;
+	font-weight: normal;
+}
+
+#page a {
+	background: #f0ebeb;
+	padding: 1px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #a8a8a8;
+	border: 1px solid #a8a8a8;
+}
+
+#page a:hover {
+   	background: #fff;
+}
+
+#agent_table {
+	clear: left;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#agent_table a {
+	background: #f0ebeb;
+	padding: 0px;
+	-moz-border-radius: 4px;
+ 	-webkit-border-radius: 4px;
+	border: 0px;
+	color: white;
+	color: #7e1500;
+	border: 0px;
+}
+
+#agent_table a:hover {
+   	background: #fff;
+	font-weight: normal;
+	border-bottom: 0px;
+	text-decoration: none;
+}
+
+a.rollover {
+	display: block;
+	background: #7e1500;
+	}
+
+a.rollover:hover {
+	display: block;
+	background: #fff;
+	}
+
+td img.decoration {display: block;}
+
+h2 {
+	display: block;
+	text-align: left;
+	padding-bottom: 3px;
+	font-weight: normal;
+	font-size: x-large;
+	color: #7e1500;
+	/*position: relative; */
+}
+
+#page table,#page p,#page ul {
+	margin-bottom: 14px;
+	}
+	
+#page ul {margin-left: 20px;}
+
+h3 {
+	font-size: 1.2em;
+	padding-top: 10px;
+	padding-bottom: 3px;
+	font-weight: normal;
+}
+
+img {border: 0;}
+
+.right {float: right; margin: 0 0 10px 10px;}
+.left {float: left; margin: 0 10px 10px 0;}
+img .normal {margin: auto; margin-bottom: 10px;}
+
+/* further reading links */
+
+#page #further_reading_links {
+	display: block;
+	clear: both;
+	margin: 0 0 10px 0;
+	list-style: none;
+	height: 1.8em;
+	}
+	
+#further_reading_links li {
+	float: left;
+	padding: 4px;
+	padding-left: 20px;
+	background: #c4a75c url(layout_images/arrow-black.png) no-repeat left; 
+	background-position: 4px;
+	list-style-type: none;
+	list-style-image: none;
+	}
+
+#further_reading_links li a {color: black;}
+#further_reading_links li a:hover {color: #675252;}
+
+/* footer */
+
+#footer {
+	clear: left;
+}
+
+#link_previous {
+	float: left;
+	margin-top: 8px;
+	padding: 5px 70px 5px 10px;
+	background: url(layout_images/menu_bar_combined.png) no-repeat right;
+	color: #7e1500;
+	font-size: large;
+}
+
+#link_next {
+	float: right;
+	margin-top: 8px;
+	padding: 5px 10px 5px 70px;
+	background: url(layout_images/menu_bar_combined.png) no-repeat left;
+	color: #7e1500;
+	font-size: large;
+}
+
+#link_previous:hover, #link_next:hover  {
+	color: #bc8900;
+}
+
+#link_previous:hover canvas, #link_next:hover canvas {
+  border-bottom: 2px solid #bc8900;
+}
+
+
+/* text block layout */
+
+#page .textblock {
+clear: both;
+	}
+
+.left_float {
+float: left;
+margin: 0 10px 10px 0;
+}
+
+.right_float {
+float: right;
+margin: 0 0 10px 10px;
+}
+
+.center {
+display: block;
+margin: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+#page .tip {
+	background: url(layout_images/advice_portrait.png) no-repeat top left;
+	/* background-color: rgba(200,127,105,0.5); */
+	padding: 5px;
+	padding-left: 100px;
+	list-style: none;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	border: 1px solid #9b6b5d;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#page .subblock {
+	padding: 0px 20px 5px 10px;
+	list-style: none;
+	margin: 0;
+	margin-top: -5px;
+}
+
+#page .subblock h3 {
+	font-size: 1em;
+	padding-top: 0px;
+	padding-bottom: 1px;
+	color: #632;
+}
+
+/* unit index */
+
+.unit_group {
+float: left;
+width: auto;
+min-height: 10em;
+margin: 1em 1em 0 0;
+}
+
+#page .unit_group li img {
+	width: 46px; height: 46px;
+	background: #eee;
+	margin: 1px 1px 1px -2px;
+	vertical-align: middle;
+	background: url(layout_images/unit_card_bg.png);
+	border:  1px solid #a8a8a8;
+}
+
+#page .unit_group li a:hover img {
+	background: url(layout_images/unit_card_bg.png) bottom;
+}
+
+#page .unit_group ul {
+	list-style: none;
+	margin-left: 0px;
+}
+
+#page .unit_group li {
+	display: block;
+	height: 54px;
+	vertical-align: middle;
+}
+
+/* stats list */
+
+#unit_pic {
+	float: right;
+	margin: 0 0 20px 20px;
+	background: url(layout_images/unit_card_bg.png);
+	border:  1px solid #a8a8a8;
+}
+
+#stats_list{
+	border-collapse: collapse;
+}
+
+#stats_list .stats_row td {
+	border-bottom: 1px solid #a8a8a8; padding: 2px 5px 0px 5px;
+}
+
+#stats_list .stats_row .percentage_bar {
+padding: 0;
+width: 131px;
+background: url(layout_images/stats_bar_background.png) no-repeat left;
+}
+
+#stats_list .stats_row .percentage_bar span {
+display: block;
+background: url(layout_images/stats_bar_colour.png) no-repeat left;
+}
+
+/* clan index */
+
+#clan_index a {
+	display: block; float: left;
+	margin: 4px;
+	padding: 2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #9b6b5d;
+	border: 1px solid #9b6b5d;
+	background: #f0ebeb;
+	width: 180px;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+#clan_index a:hover {
+ 	background: #fff;
+}
+
+#clan_index a img {
+	vertical-align: middle; display: block; margin: auto; border: 0;
+}
+
+/* clan page */
+
+#clan_mon {
+	border: 0;
+}
+
+
+/* tech index */
+
+#tech_pic, #skill_pic {
+border: 0;
+}
+
+#tech_index a {
+	display: block; float: left;
+	margin: 1px;
+	padding: 2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #9b6b5d;
+	border: 1px solid #9b6b5d;
+	background: #f5f3f2;
+	width: 150px;
+	height: 120px;
+	text-align: center;
+}
+
+html>/**/body #tech_index a {
+	width: 150px;
+	height: 120px;
+}
+
+#tech_index a:hover {
+ 	background: #fff;
+}
+
+#tech_index a img {
+	vertical-align: middle; display: block; border: 0; margin: auto;
+}
+
+
+/* building index */
+
+#building_list p {
+	float: left; clear: left;
+}
+
+#building_list a:hover {
+ 	background: #fff;
+}
+
+#building_list a img {
+	vertical-align: middle; display: block; margin: auto; border: 0;
+}
+
+/* building page */
+#building_pic {
+	border: 0;
+	text-align: left;
+	position: static;
+	left: 0; clear: none;
+	position: static
+}
+
+/* New buildings display */
+
+#building_list, #building_list dl, #building_list ul, #building_list dl dt dd  {
+list-style-type: none; margin: 0px; padding: 0px;
+}
+
+#building_list dl {
+display: block; height: 140px;
+
+}
+
+#building_list dl dd a img {
+ width: 49px; height: 36px;
+}
+
+#building_list ul  {
+	display: block; float: left;
+	/*width: 120px;*/
+	text-align: left;
+	margin: 2px 2px 8px 2px;
+	padding: 2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 2px solid #9b6b5d;
+	border: 2px solid #9b6b5d;
+	border-right: none;
+	list-style-image: none;
+}
+
+/* CSS hover effect --commented out, to be replaced with Javascript?
+
+#building_list ul {
+  position: absolute; left: -1999em; top: 0px;
+}
+
+#building_list dl dd{
+	position: absolute; left: -1999em;  top: 0px;
+	}
+
+#building_list dl:hover, #building_list dl:hover ul {
+	position: relative; left: 0px;
+}
+
+#building_list dl:hover ul{
+   position: absolute; left: 140px;
+ }
+
+#building_list dl:hover dd{
+	position: relative; left: 0px;
+	height: auto;
+}
+
+*/
+
+/* unit index */
+
+#unit_list p {
+	float: left; clear: left;
+}
+
+#unit_list a:hover {
+ 	background: #fff;
+}
+
+#unit_list a img {
+	vertical-align: middle; display: block; margin: auto; border: 0;
+}
+
+/* requirements list */
+
+.requirements_list a {
+display: block; width: 51px; margin: 2px; padding: 2px;
+}
+
+.requirements_list li {
+clear: both;
+}
+
+.requirements_list img {
+	border: 0; vertical-align: top;
+}
+
+.requirements_building {
+width: 49px; height: 36px;
+}
+
+.requirements_tech {
+width: 49px; height: 63px;
+}
+
+.requirements_resource {
+width: 32px; height: 32px; margin: auto;
+}
+
+/* manual index */
+
+#index_list {
+	list-style-type: none;
+	font-size: 1.2em; font-weight: normal; color: #7e1500;
+/*	-moz-column-count: 2;
+	-moz-column-gap: 20px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 20px;
+	height: 10em;
+*/
+}
+
+#index_list li a {border: none; background: none; color: black; padding: 1px; margin: 1px;}
+#index_list li a:hover {background: #f9f9f9;}
+
+#index_list .sub_index {
+	padding-top: 0.5em;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+/* region index */
+
+#region_index ol {
+	float: none;
+	padding-left: 60px;
+	font-size: large;
+	font-weight: normal;
+	/*-moz-column-count: 2;
+	  -moz-column-gap: 10px;
+	  -webkit-column-count: 2;
+	  -webkit-column-gap: 10px; */
+	  line-height: default;
+	list-style-image: none;
+	}
+	
+#region_index li {
+	padding: 4px;
+	float: left;
+	margin-left: 50px;
+	min-width: 120px;
+	height: 20px;
+}
+
+#region_index li a {border: none; background: none; color: black; padding: 1px; margin: 1px;}
+#region_index li a:hover {background: #f9f9f9;}
+
+/* resource index */
+
+/*#resource_index ol {
+		float: none;
+		padding-left: 60px;
+		font-size: 1em;
+		font-weight: bold;
+	  /*-moz-column-count: 2;
+	  -moz-column-gap: 10px;
+	  -webkit-column-count: 2;
+	  -webkit-column-gap: 10px; */
+	  line-height: default;
+	}
+	
+#resource_index li {
+padding: 2px; float: left; margin-left: 50px; min-width: 120px; height: 20px;
+}
+
+#resource_index li a {border: none; background: none; color: black; padding: 1px; margin: 1px;}
+#resource_index li a:hover {background: #f9f9f9;}*/
+
+.resource_index a {
+display: block; width: 51px; margin: 2px; padding: 2px;
+}
+
+.resource_index li {
+clear: both;
+}
+
+.resource_index img {
+	border: 0; vertical-align: top;
+}
+
+/* CSS hiding techniques */
+
+/* MIR: The Malarkey Image Replacement - for hiding the percentage value */
+
+#stats_list .stats_row .percentage_bar span { letter-spacing: -1000em; } 
+/* Just for Opera, but hide from MacIE */
+/*\*/html>body #stats_list .stats_row .percentage_bar span { letter-spacing: normal; text-indent: -999em; overflow: hidden;}
+/* End of hack */
+
+
+.hidden {
+width: 0px; height: 0px;
+position: absolute;
+left: -3000px;
+display: none;
+}

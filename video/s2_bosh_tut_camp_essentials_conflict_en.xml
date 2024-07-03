@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+<head>
+<styling>
+<style id="1" tts:textAlign="left" tts:fontSize="20 px"/>
+</styling>
+</head>
+<body>
+<div xml:lang="en">
+<p begin="00:00:00.30" dur="6967 ms" style="1">An enemy army has formed nearby. We must protect our&lt;br /&gt;provinces from any threat; if all our regions should fall,</p>
+<p begin="00:00:07.26" dur="2900 ms" style="1">our campaign comes to an end. </p>
+<p begin="00:00:10.83" dur="7200 ms" style="1">Let's push them back with the General's army.&lt;br /&gt;Notice that when we mouse over, a circular border is drawn</p>
+<p begin="00:00:18.03" dur="7800 ms" style="1">out on the map; this is the army's &quot;zone of control&quot;.&lt;br /&gt;Enemies are unable to enter this zone without first attacking our army. </p>
+<p begin="00:00:25.83" dur="4300 ms" style="1">That's useful to remember when selecting strategic locations on the map.</p>
+<p begin="00:00:30.80" dur="6450 ms" style="1">Let's approach the enemy. With our army selected, we simply&lt;br /&gt;right-click a location on the map to issue the </p>
+<p begin="00:00:37.25" dur="6850 ms" style="1">order to move. We can press spacebar to speed up movement on the campaign&lt;br /&gt;map. Right-clicking on an opposing army will move our forces to</p>
+<p begin="00:00:44.10" dur="3800 ms" style="1">engage and instigate a battle.  </p>
+<p begin="00:00:48.56" dur="6450 ms" style="1">This pre-battle panel offers an overview of the two armies involved.&lt;br /&gt;The balance of power meter shows how we compare to</p>
+<p begin="00:00:55.01" dur="4400 ms" style="1">the enemy so we can make a decision on our next move. </p>
+<p begin="00:01:00.03" dur="8000 ms" style="1">We've got several options here. We can choose to command our&lt;br /&gt;forces on the 3D battlemap, withdraw our army and regroup, </p>
+<p begin="00:01:08.03" dur="6900 ms" style="1">or fight out this encounter using the auto-resolve function.&lt;br /&gt;We'll choose the latter.</p>
+<p begin="00:01:15.56" dur="7400 ms" style="1">The enemy are crushed and here we're presented with the&lt;br /&gt;full glory of our victory. This panel shows our</p>
+<p begin="00:01:22.96" dur="7800 ms" style="1">casualties and the enemy's losses. Notice that, having survived&lt;br /&gt;the battle, our units have gained experience; they will now </p>
+<p begin="00:01:30.76" dur="7100 ms" style="1">be more effective in the field. Experienced units should be nurtured.&lt;br /&gt;They will become precious as our campaign develops. </p>
+</div>
+</body>
+</tt>

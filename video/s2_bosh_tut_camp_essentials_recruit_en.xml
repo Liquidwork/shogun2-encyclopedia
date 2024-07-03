@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+<head>
+<styling>
+<style id="1" tts:textAlign="left" tts:fontSize="20 px"/>
+</styling>
+</head>
+<body>
+<div xml:lang="en">
+<p begin="00:00:00.30" dur="8650 ms" style="1">Improving military buildings will enable us to recruit more advanced&lt;br /&gt;units. We need to remember that, as our armies are reinforced,</p>
+<p begin="00:00:08.95" dur="8500 ms" style="1">they become more expensive to maintain. We need to balance&lt;br /&gt;economic growth with military expansion, whilst also keeping public order in check.</p>
+<p begin="00:00:18.13" dur="5000 ms" style="1">It's a delicate balance but when we manage and develop&lt;br /&gt;each of these elements, our provinces will enjoy growth, </p>
+<p begin="00:00:23.13" dur="6200 ms" style="1">our armies will become more powerful and we can then&lt;br /&gt;look to expand our borders further. Achieve this,</p>
+<p begin="00:00:29.33" dur="3900 ms" style="1">and we can walk the path to victory.</p>
+</div>
+</body>
+</tt>

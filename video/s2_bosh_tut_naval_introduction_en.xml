@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+<head>
+<styling>
+<style id="1" tts:textAlign="left" tts:fontSize="20 px"/>
+</styling>
+</head>
+<body>
+<div xml:lang="en">
+<p begin="00:00:00.30" dur="6316 ms" style="1">In this tutorial we'll cover the basics of the camera, the&lt;br /&gt;deployment and movement of ships and the knowledge you </p>
+<p begin="00:00:06.61" dur="2200 ms" style="1">need to sink the enemy.</p>
+</div>
+</body>
+</tt>

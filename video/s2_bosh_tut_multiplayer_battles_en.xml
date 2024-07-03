@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+<head>
+<styling>
+<style id="1" tts:textAlign="left" tts:fontSize="20 px"/>
+</styling>
+</head>
+<body>
+<div xml:lang="en">
+<p begin="00:00:00.30" dur="6500 ms" style="1">Let's fight our first multiplayer battle. We can choose to join&lt;br /&gt;any of the existing battles out there, or host our own. </p>
+<p begin="00:00:06.80" dur="3750 ms" style="1">We can access these options via the Battle List button. </p>
+<p begin="00:00:11.90" dur="6700 ms" style="1">When we host our own battle, we can use this screen to specify&lt;br /&gt;the battle type, the map and the funds allowed. The funds </p>
+<p begin="00:00:18.60" dur="4500 ms" style="1">available dictate the size of the armies that players can take into battle.</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+<head>
+<styling>
+<style id="1" tts:textAlign="left" tts:fontSize="20 px"/>
+</styling>
+</head>
+<body>
+<div xml:lang="en">
+<p begin="00:00:00.30" dur="6744 ms" style="1">Fall of the Samurai's campaign can be played in multiplayer against&lt;br /&gt;an opponent.  There's also an &quot;Avatar Conquest&quot; mode that provides</p>
+<p begin="00:00:07.04" dur="6944 ms" style="1">a backdrop for multiplayer battles. In this tutorial we'll explore&lt;br /&gt;this mode, join an online clan and fight for supremacy under</p>
+<p begin="00:00:13.98" dur="3600 ms" style="1">their banner. </p>
+</div>
+</body>
+</tt>

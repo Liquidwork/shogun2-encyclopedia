@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+<head>
+<styling>
+<style id="1" tts:textAlign="left" tts:fontSize="20 px"/>
+</styling>
+</head>
+<body>
+<div xml:lang="en">
+<p begin="00:00:00.30" dur="6077 ms" style="1">The fate of your clan is decided on the battlefield.&lt;br /&gt;You'll need a strong command of your troops, along with</p>
+<p begin="00:00:06.37" dur="6277 ms" style="1">a mastery of their strengths, weaknesses and special abilities.&lt;br /&gt;In this tutorial we will cover the fundamentals of managing</p>
+<p begin="00:00:12.65" dur="5977 ms" style="1">an army on the battlefield, providing the foundations for victory.</p>
+</div>
+</body>
+</tt>
