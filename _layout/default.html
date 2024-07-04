@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+              let currentPath = window.location.pathname;
+              let lowerCasePath = currentPath.toLowerCase();
+              if (currentPath !== lowerCasePath) {
+                window.location.replace(lowerCasePath);
+              }
+            });
+          </script>
+    </body>
+</html>
