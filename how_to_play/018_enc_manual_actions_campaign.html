@@ -1,28 +1,25 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
-	<title>Campaign Map Play</title>
-
-	<link rel="stylesheet" type="text/css" href="../encyclopedia.css" media="all" />
-	<!--[if IE]><link rel="stylesheet" type="text/css" href="../encyclopedia_ie_rules.css" media="screen" /><![endif]-->
-	<link rel="index" href="../index.html">
-	<link rel="top" href="../index.html">
-	<link rel="up" href="../index.html">
-	<link rel="prev" href="006_enc_manual_intro.html">
-	<link rel="next" href="007_enc_manual_hud.html">
-
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-	<script src="../cufon-yui.js" type="text/javascript"></script>
-	<script src="../disable-select.js" type="text/javascript"></script>
-	<script src="../javascript_cookies.js" type="text/javascript"></script>
-	<script src="../Bardi_400-Bardi_700.font.js" type="text/javascript"></script>
-	<script type="text/javascript">
+<title>Campaign Map Play</title>
+<link href="../encyclopedia.css" media="all" rel="stylesheet" type="text/css"/>
+<!--[if IE]><link rel="stylesheet" type="text/css" href="../encyclopedia_ie_rules.css" media="screen" /><![endif]-->
+<link href="../index.html" rel="index"/>
+<link href="../index.html" rel="top"/>
+<link href="../index.html" rel="up"/>
+<link href="006_enc_manual_intro.html" rel="prev"/>
+<link href="007_enc_manual_hud.html" rel="next"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<script src="../cufon-yui.js" type="text/javascript"></script>
+<script src="../disable-select.js" type="text/javascript"></script>
+<script src="../javascript_cookies.js" type="text/javascript"></script>
+<script src="../bardi_400-bardi_700.font.js" type="text/javascript"></script>
+<script type="text/javascript">
 			Cufon.replace('h1')('h2')('h3')('h4')('p')('li')('a')('table'); // Works without a selector engine
 	</script>
-	<script type="text/javascript">
+<script type="text/javascript">
 		function write_volume_to_cookie() 
 		{
 			var split_string = location.search.substr(1).split(":");			
@@ -37,293 +34,180 @@
 		}
 	</script>
 </head>
-
-<body onLoad="write_volume_to_cookie()">
-     <div id="header">
-		<h1>Total War Encyclopaedia</h1>
-		<ul id="navigation">
-			<li><a href="../how_to_play.html">Manual</a></li>
-			<li><a href="../unit_index_choice.html">Units</a></li>
-			<li><a href="../building_index_choice.html">Buildings</a></li>
-			<li><a href="../arts_index_choice.html">Arts</a></li>
-			<li><a href="../clan_index_choice.html">Clans</a></li>
-			<li><a href="../character_index_choice.html">Characters</a></li>
-			<li><a href="../region_index_choice.html">Provinces</a></li>
-			<li><a href="../specialities_index_choice.html">Specialities</a></li>
-			<li><a href="../tutorials.html">Tutorials</a></li>
-		</ul>
-     </div>
-     <ul id="breadcrumbs">
-		<li><a href="../how_to_play.html">Manual</a></li>
-		
-		<li>Campaign Map Play</li>
-     </ul>
-    <div id="page">
-      <h2>Campaign Map Play</h2>
-      <div id="content">
-
-         <div class="textblock">
-
-         <img class="normal" src="../content_images/how_to_play/additional/campaign/campaign_screen.png"/>
-
-         <h3 id="enc_text_manual_actions_campaign">Campaign Map Play</h3>
-         <p>The campaign map is a turn-based environment, so actions can be completed in any order, and you are entirely free in what you choose to do - <a href="../../encyclopedia/how_to_play/018e_enc_manual_actions_campaign_construction.html">construction</a>, <a href="../../encyclopedia/how_to_play/018a_enc_manual_actions_campaign_recruitment.html">recruitment</a>, <a href="../../encyclopedia/how_to_play/015_enc_manual_hud_diplomacy.html">diplomacy</a>, <a href="../../encyclopedia/how_to_play/012c_enc_manual_hud_events_missions.html">missions</a>, <a href="../../encyclopedia/how_to_play/016_enc_manual_hud_management.html">clan management</a>, <a href="../../encyclopedia/how_to_play/044_enc_manual_agents_subterfuge.html">subterfuge</a>, <a href="../../encyclopedia/how_to_play/032_enc_manual_ui_battle.html">battles</a> - sometimes even choosing to do nothing if you want your <a href="../../encyclopedia/how_to_play/011_enc_manual_hud_treasury.html">treasury</a> to accumulate funds! When you are ready to proceed, press the <a href="../../encyclopedia/how_to_play/017_enc_manual_hud_end_turn.html">end turn</a> button. The AI-controlled clans will then perform their own turns; their mons will scroll across the screen, and you can observe the movement of their campaign pieces. Whilst this is happening the user interface will become inactive. Control will be returned to you when the process is complete. You may then take your next turn.</p>
-         </div>
-
-         <div class="textblock">
-
-         <h3 id="enc_text_manual_start">Selecting a Clan</h3>
-         <p>Each campaign begins following the <a href="../../encyclopedia/how_to_play/003a_enc_ui_frontend_grand_clan.html">selection of a clan</a>. Each one has a unique start position and different strategic advantages.</p>
-         </div>
-
-         <div class="textblock">
-
-         <h3 id="enc_text_manual_actions_campaign_quick_save_load">Quick Save/Load</h3>
-         <p>You can save your game at any point by pressing Ctrl + S on your keyboard. Saves will be labelled as &#34;Quick Save&#34;. To instantly load the last save simply press Ctrl + L on your keyboard.</p>
-         </div>
-
-
-		<ul class="sub_index">
-			
-			<li>
-				<a href="027_enc_manual_army_moves.html">Generals &amp; Armies</a>
-				
-			</li>
-			
-			<li>
-				<a href="028_enc_manual_army_attack.html">Attacking with Armies</a>
-				
-				<ul class="sub_index">
-				
-				   <li><a href="032_enc_manual_ui_battle.html">The Battle Panel</a>
-						
-				   </li>
-				
-				</ul>
-				
-			</li>
-			
-			<li>
-				<a href="035_enc_manual_fleet_moves.html">Generals &amp; Fleets</a>
-				
-			</li>
-			
-			<li>
-				<a href="037_enc_manual_fleet_attack.html">Attacking with Fleets</a>
-				
-			</li>
-			
-			<li>
-				<a href="bosh_enc_naval_bombardment.html">Naval Bombardment</a>
-				
-			</li>
-			
-			<li>
-				<a href="018a_enc_manual_actions_campaign_recruitment.html">Recruitment</a>
-				
-			</li>
-			
-			<li>
-				<a href="018e_enc_manual_actions_campaign_construction.html">Construction</a>
-				
-			</li>
-			
-			<li>
-				<a href="bosh_enc_railways.html">Railways</a>
-				
-			</li>
-			
-			<li>
-				<a href="018k_enc_manual_religion.html">Religion</a>
-				
-			</li>
-			
-			<li>
-				<a href="018j_enc_manual_actions_diplomacy.html">Diplomacy</a>
-				
-				<ul class="sub_index">
-				
-				   <li><a href="015b_enc_manual_hud_diplomacy_options_trade.html">Trade Options</a>
-						
-				   </li>
-				
-				   <li><a href="015c_enc_manual_hud_diplomacy_options_alliance.html">Military Alliance</a>
-						
-				   </li>
-				
-				   <li><a href="015c1_enc_manual_hud_diplomacy_access.html">Military Access</a>
-						
-				   </li>
-				
-				   <li><a href="015d_enc_manual_hud_diplomacy_options_money.html">Money</a>
-						
-				   </li>
-				
-				   <li><a href="015e_enc_manual_hud_diplomacy_options_vassals.html">Vassal Clans</a>
-						
-				   </li>
-				
-				   <li><a href="015f_enc_manual_hud_diplomacy_options_war.html">War Options</a>
-						
-				   </li>
-				
-				   <li><a href="015f1_enc_manual_hud_diplomacy_options_peace.html">Peace Treaties</a>
-						
-				   </li>
-				
-				   <li><a href="015g_enc_manual_hud_diplomacy_options_hostages.html">Hostages</a>
-						
-				   </li>
-				
-				   <li><a href="015h_enc_manual_hud_diplomacy_options_marriage.html">Marriage</a>
-						
-				   </li>
-				
-				   <li><a href="015i_enc_manual_hud_diplomacy_options_threaten.html">Counter-offers &amp; Threats</a>
-						
-				   </li>
-				
-				</ul>
-				
-			</li>
-			
-			<li>
-				<a href="019_enc_manual_trade.html">Trade</a>
-				
-			</li>
-			
-			<li>
-				<a href="019a_enc_manual_province_wealth.html">Wealth</a>
-				
-			</li>
-			
-			<li>
-				<a href="019b_enc_manual_food_shortages.html">Food</a>
-				
-			</li>
-			
-			<li>
-				<a href="020_enc_manual_public_order.html">Public Order</a>
-				
-			</li>
-			
-			<li>
-				<a href="022_enc_manual_clan_traits.html">Clan Traits</a>
-				
-			</li>
-			
-			<li>
-				<a href="023_enc_manual_clan_effects.html">Clan Effects</a>
-				
-			</li>
-			
-			<li>
-				<a href="024_enc_manual_clan_fame.html">Clan Fame</a>
-				
-			</li>
-			
-			<li>
-				<a href="025_enc_manual_clan_loyalty.html">Loyalty</a>
-				
-			</li>
-			
-			<li>
-				<a href="026_enc_manual_clan_honour.html">Honour</a>
-				
-			</li>
-			
-			<li>
-				<a href="bosh_enc_allegiance.html">Allegiance</a>
-				
-			</li>
-			
-			<li>
-				<a href="029_enc_manual_army_fragments.html">Army Management</a>
-				
-			</li>
-			
-			<li>
-				<a href="030_enc_manual_army_attrition.html">Attrition</a>
-				
-			</li>
-			
-			<li>
-				<a href="031_enc_manual_army_experience.html">Experience</a>
-				
-			</li>
-			
-			<li>
-				<a href="038_enc_manual_fleet_fragments.html">Fleet Management</a>
-				
-			</li>
-			
-			<li>
-				<a href="039_enc_manual_fleet_blockades.html">Blockading Ports</a>
-				
-			</li>
-			
-			<li>
-				<a href="040_enc_manual_fleet_access.html">Armies &amp; Agents on Fleets</a>
-				
-			</li>
-			
-			<li>
-				<a href="bosh_enc_coastal_defences.html">Coastal Defences</a>
-				
-			</li>
-			
-			<li>
-				<a href="041_enc_manual_fleet_assaults.html">Coastal Assaults</a>
-				
-			</li>
-			
-			<li>
-				<a href="042_enc_manual_skills.html">Character Skills</a>
-				
-			</li>
-			
-			<li>
-				<a href="043_enc_manual_traits.html">Character Traits &amp; Retainers</a>
-				
-			</li>
-			
-			<li>
-				<a href="044_enc_manual_agents_subterfuge.html">Subterfuge Agents</a>
-				
-				<ul class="sub_index">
-				
-				   <li><a href="044a_enc_manual_agent_actions_subterfuge.html">Subterfuge Actions</a>
-						
-				   </li>
-				
-				   <li><a href="bosh_enc_agents_friendly_actions.html">Friendly Actions</a>
-						
-				   </li>
-				
-				</ul>
-				
-			</li>
-			
-			<li>
-				<a href="045_enc_manual_agents_religious.html">Religious Agents</a>
-				
-				<ul class="sub_index">
-				
-				   <li><a href="045a_enc_manual_agent_actions_religious.html">Religious Actions</a>
-						
-				   </li>
-				
-				</ul>
-				
-			</li>
-			
-		</ul>
-
-
-	 </div>
-     </div>
-     <div id="footer">
-		<a id="link_previous" href="006_enc_manual_intro.html">Game Overview</a>
-		<a id="link_next" href="007_enc_manual_hud.html">The Campaign Interface</a>
-     </div>
+<body onload="write_volume_to_cookie()">
+<div id="header">
+<h1>Total War Encyclopaedia</h1>
+<ul id="navigation">
+<li><a href="../how_to_play.html">Manual</a></li>
+<li><a href="../unit_index_choice.html">Units</a></li>
+<li><a href="../building_index_choice.html">Buildings</a></li>
+<li><a href="../arts_index_choice.html">Arts</a></li>
+<li><a href="../clan_index_choice.html">Clans</a></li>
+<li><a href="../character_index_choice.html">Characters</a></li>
+<li><a href="../region_index_choice.html">Provinces</a></li>
+<li><a href="../specialities_index_choice.html">Specialities</a></li>
+<li><a href="../tutorials.html">Tutorials</a></li>
+</ul>
+</div>
+<ul id="breadcrumbs">
+<li><a href="../how_to_play.html">Manual</a></li>
+<li>Campaign Map Play</li>
+</ul>
+<div id="page">
+<h2>Campaign Map Play</h2>
+<div id="content">
+<div class="textblock">
+<img class="normal" src="../content_images/how_to_play/additional/campaign/campaign_screen.png"/>
+<h3 id="enc_text_manual_actions_campaign">Campaign Map Play</h3>
+<p>The campaign map is a turn-based environment, so actions can be completed in any order, and you are entirely free in what you choose to do - <a href="../../encyclopedia/how_to_play/018e_enc_manual_actions_campaign_construction.html">construction</a>, <a href="../../encyclopedia/how_to_play/018a_enc_manual_actions_campaign_recruitment.html">recruitment</a>, <a href="../../encyclopedia/how_to_play/015_enc_manual_hud_diplomacy.html">diplomacy</a>, <a href="../../encyclopedia/how_to_play/012c_enc_manual_hud_events_missions.html">missions</a>, <a href="../../encyclopedia/how_to_play/016_enc_manual_hud_management.html">clan management</a>, <a href="../../encyclopedia/how_to_play/044_enc_manual_agents_subterfuge.html">subterfuge</a>, <a href="../../encyclopedia/how_to_play/032_enc_manual_ui_battle.html">battles</a> - sometimes even choosing to do nothing if you want your <a href="../../encyclopedia/how_to_play/011_enc_manual_hud_treasury.html">treasury</a> to accumulate funds! When you are ready to proceed, press the <a href="../../encyclopedia/how_to_play/017_enc_manual_hud_end_turn.html">end turn</a> button. The AI-controlled clans will then perform their own turns; their mons will scroll across the screen, and you can observe the movement of their campaign pieces. Whilst this is happening the user interface will become inactive. Control will be returned to you when the process is complete. You may then take your next turn.</p>
+</div>
+<div class="textblock">
+<h3 id="enc_text_manual_start">Selecting a Clan</h3>
+<p>Each campaign begins following the <a href="../../encyclopedia/how_to_play/003a_enc_ui_frontend_grand_clan.html">selection of a clan</a>. Each one has a unique start position and different strategic advantages.</p>
+</div>
+<div class="textblock">
+<h3 id="enc_text_manual_actions_campaign_quick_save_load">Quick Save/Load</h3>
+<p>You can save your game at any point by pressing Ctrl + S on your keyboard. Saves will be labelled as "Quick Save". To instantly load the last save simply press Ctrl + L on your keyboard.</p>
+</div>
+<ul class="sub_index">
+<li>
+<a href="027_enc_manual_army_moves.html">Generals &amp; Armies</a>
+</li>
+<li>
+<a href="028_enc_manual_army_attack.html">Attacking with Armies</a>
+<ul class="sub_index">
+<li><a href="032_enc_manual_ui_battle.html">The Battle Panel</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="035_enc_manual_fleet_moves.html">Generals &amp; Fleets</a>
+</li>
+<li>
+<a href="037_enc_manual_fleet_attack.html">Attacking with Fleets</a>
+</li>
+<li>
+<a href="bosh_enc_naval_bombardment.html">Naval Bombardment</a>
+</li>
+<li>
+<a href="018a_enc_manual_actions_campaign_recruitment.html">Recruitment</a>
+</li>
+<li>
+<a href="018e_enc_manual_actions_campaign_construction.html">Construction</a>
+</li>
+<li>
+<a href="bosh_enc_railways.html">Railways</a>
+</li>
+<li>
+<a href="018k_enc_manual_religion.html">Religion</a>
+</li>
+<li>
+<a href="018j_enc_manual_actions_diplomacy.html">Diplomacy</a>
+<ul class="sub_index">
+<li><a href="015b_enc_manual_hud_diplomacy_options_trade.html">Trade Options</a>
+</li>
+<li><a href="015c_enc_manual_hud_diplomacy_options_alliance.html">Military Alliance</a>
+</li>
+<li><a href="015c1_enc_manual_hud_diplomacy_access.html">Military Access</a>
+</li>
+<li><a href="015d_enc_manual_hud_diplomacy_options_money.html">Money</a>
+</li>
+<li><a href="015e_enc_manual_hud_diplomacy_options_vassals.html">Vassal Clans</a>
+</li>
+<li><a href="015f_enc_manual_hud_diplomacy_options_war.html">War Options</a>
+</li>
+<li><a href="015f1_enc_manual_hud_diplomacy_options_peace.html">Peace Treaties</a>
+</li>
+<li><a href="015g_enc_manual_hud_diplomacy_options_hostages.html">Hostages</a>
+</li>
+<li><a href="015h_enc_manual_hud_diplomacy_options_marriage.html">Marriage</a>
+</li>
+<li><a href="015i_enc_manual_hud_diplomacy_options_threaten.html">Counter-offers &amp; Threats</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="019_enc_manual_trade.html">Trade</a>
+</li>
+<li>
+<a href="019a_enc_manual_province_wealth.html">Wealth</a>
+</li>
+<li>
+<a href="019b_enc_manual_food_shortages.html">Food</a>
+</li>
+<li>
+<a href="020_enc_manual_public_order.html">Public Order</a>
+</li>
+<li>
+<a href="022_enc_manual_clan_traits.html">Clan Traits</a>
+</li>
+<li>
+<a href="023_enc_manual_clan_effects.html">Clan Effects</a>
+</li>
+<li>
+<a href="024_enc_manual_clan_fame.html">Clan Fame</a>
+</li>
+<li>
+<a href="025_enc_manual_clan_loyalty.html">Loyalty</a>
+</li>
+<li>
+<a href="026_enc_manual_clan_honour.html">Honour</a>
+</li>
+<li>
+<a href="bosh_enc_allegiance.html">Allegiance</a>
+</li>
+<li>
+<a href="029_enc_manual_army_fragments.html">Army Management</a>
+</li>
+<li>
+<a href="030_enc_manual_army_attrition.html">Attrition</a>
+</li>
+<li>
+<a href="031_enc_manual_army_experience.html">Experience</a>
+</li>
+<li>
+<a href="038_enc_manual_fleet_fragments.html">Fleet Management</a>
+</li>
+<li>
+<a href="039_enc_manual_fleet_blockades.html">Blockading Ports</a>
+</li>
+<li>
+<a href="040_enc_manual_fleet_access.html">Armies &amp; Agents on Fleets</a>
+</li>
+<li>
+<a href="bosh_enc_coastal_defences.html">Coastal Defences</a>
+</li>
+<li>
+<a href="041_enc_manual_fleet_assaults.html">Coastal Assaults</a>
+</li>
+<li>
+<a href="042_enc_manual_skills.html">Character Skills</a>
+</li>
+<li>
+<a href="043_enc_manual_traits.html">Character Traits &amp; Retainers</a>
+</li>
+<li>
+<a href="044_enc_manual_agents_subterfuge.html">Subterfuge Agents</a>
+<ul class="sub_index">
+<li><a href="044a_enc_manual_agent_actions_subterfuge.html">Subterfuge Actions</a>
+</li>
+<li><a href="bosh_enc_agents_friendly_actions.html">Friendly Actions</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="045_enc_manual_agents_religious.html">Religious Agents</a>
+<ul class="sub_index">
+<li><a href="045a_enc_manual_agent_actions_religious.html">Religious Actions</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="footer">
+<a href="006_enc_manual_intro.html" id="link_previous">Game Overview</a>
+<a href="007_enc_manual_hud.html" id="link_next">The Campaign Interface</a>
+</div>
 </body>
+</html>
